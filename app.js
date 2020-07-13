@@ -5,7 +5,7 @@ const routeSucursales = require("./routes/sucursales");
 const routeMarcas = require("./routes/marcas");
 const routeAutos = require("./routes/autos");
 
-app.listen(3032,()=>console.log('Servidor en el puerto 3030 : Activado'));
+app.listen(3030,()=>console.log('Servidor en el puerto 3030 : Activado'));
 
 app.use('/',routeHome)
 app.use('/sucursales',routeSucursales)
